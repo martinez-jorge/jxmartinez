@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Jorge Martinez</title>
+    <link>/talk/</link>
+      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jorge Martinez, 2020</copyright><lastBuildDate>Mon, 02 Mar 2020 15:30:00 -0600</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>/talk/</link>
+    </image>
+    
+    <item>
+      <title>Identifying Institutional Peers Through Cluster Analysis</title>
+      <link>/talk/identifying-institutional-peers/</link>
+      <pubDate>Mon, 02 Mar 2020 15:30:00 -0600</pubDate>
+      <guid>/talk/identifying-institutional-peers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>See the Difference! Visualizing Assessment Data</title>
+      <link>/talk/visualizing-assessment-data/</link>
+      <pubDate>Tue, 26 Feb 2019 15:30:00 -0600</pubDate>
+      <guid>/talk/visualizing-assessment-data/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Charts for Institutional Research</title>
+      <link>/talk/google-charts-for-institutional-research/</link>
+      <pubDate>Tue, 13 Feb 2018 12:30:00 -0600</pubDate>
+      <guid>/talk/google-charts-for-institutional-research/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
