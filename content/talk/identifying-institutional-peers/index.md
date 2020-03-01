@@ -26,7 +26,7 @@ image:
   focal_point: ''
   preview_only: no
 url_slides: "talk/identifying-institutional-peers_files/peer-institutions.html"
-url_code: ""
+url_code: "talk/identifying-institutional-peers_files/peer-code.txt"
 url_pdf: ""
 url_video: ""
 slides: ''
