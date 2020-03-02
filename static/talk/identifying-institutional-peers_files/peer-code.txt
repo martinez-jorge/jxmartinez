@@ -2,106 +2,116 @@
 # Identifying Institutional Peers through Cluster Analysis
 # TAIR 2020 Conference
 # Sample Code
-# March 2, 20202
+# March 2, 2020
 ############################################################
 
 #### Install packages used in code
+
 install.packages(c("DMwR", "factoextra", "ggplot2", "gridExtra"))
 
 ##### Import data
+
 peer_data <- read.csv("peer data.csv")
 
 
-
+###############################
 ##### Step 1: Prepare Data ####
+###############################
 
 ### 1A: Remove or estimate missing data
-peer_data <- na.omit(peer_data) 
-# removes all rows with missing values.
-# this will overwrite your imported data.
-# rename your data to make a new data frame
-# if you wish not to overwrite.
 
-# or impute
-anyNA(peer_data) # checks if data has any missing values T/F
+peer_data <- na.omit(peer_data) # removes all rows with missing values.
 
-# impute data using knnImputation from DMwR package
+
+## or impute data using knnImputation from DMwR package
+
 library(DMwR)
+
 peer_data <- knnImputation(peer_data)
-anyNA(cluster_data) # check data again for missing values
+
 
 ### 1B: Standardize data
-scaled <- scale(peer_data)
-# scale() will only standardize numeric data.
-# transform non-numeric values to numeric if needed.
 
-# compare original and scaled data
-head(peer_data)
-head(peer_data)
+scaled <- scale(peer_data) # scale() will only standardize numeric data.
 
-
-
+####################################
 #### Step 2: Calculate distance ####
+####################################
+
 library(factoextra)
 
 distance <- get_dist(sample25) # computes distance matrix
-# sample25 is a sample of 25 institutions/rows 
-# used for the conference presentation. you can
-# replace "sample25" with your scaled peer data.
-# if you want other distance measures, change method parameter to
-# "manhattan", "pearson", "spearman", or "kendall".
-# default method is "euclidean".
-# example: distanceMH <- get_dist(sample25, method="manhattan")
 
-# plot distance matrix
+# sample25 is a scaled sample of 25 institutions/rows used for the conference presentation.
+# You can replace "sample25" with your scaled peer data.
+# If you want other distance measures, change method parameter to "manhattan", "pearson", "spearman", or "kendall".
+# Default method is "euclidean".
+# Example: distanceMH <- get_dist(sample25, method="manhattan")
+
+## plot distance matrix
+
 fviz_dist(distance, gradient=list(low="#00AFBB", mid="white", high="#FC4E07"))
 
-# use as.matrix if you want to see distance values
+## use as.matrix() if you want to see distance values
+
 distance_matrix <- as.matrix(distance)
 
 
 
-
+##################################
 #### Step 3: Cluster analysis ####
+##################################
+
 k2 <- kmeans(scaled, centers=2, nstart = 25) # performs clustering on matrix
+
 fviz_cluster(k2, geom="point", data=scaled) # plots clusters
 
-# add more clusters
+## add more clusters
+
 k3 <- kmeans(scaled, centers = 3, nstart = 25)
 k4 <- kmeans(scaled, centers = 4, nstart = 25)
 k5 <- kmeans(scaled, centers = 5, nstart = 25)
 
-# plots to compare clusters
+## plots to compare clusters
+
 p1 <- fviz_cluster(k2, geom = "point", data = scaled) + ggtitle("k = 2") +
   annotate("text", x=-1.25, y=-3.15, label="UH", size=3)
+
 p2 <- fviz_cluster(k3, geom = "point",  data = scaled) + ggtitle("k = 3") +
   annotate("text", x=-1.25, y=-3.15, label="UH", size=3)
+
 p3 <- fviz_cluster(k4, geom = "point",  data = scaled) + ggtitle("k = 4") +
   annotate("text", x=-1.25, y=-3.15, label="UH", size=3)
+
 p4 <- fviz_cluster(k5, geom = "point",  data = scaled) + ggtitle("k = 5") +
   annotate("text", x=-1.25, y=-3.15, label="UH", size=3)
-# annotate is used in conference presentation.
-# you may remove or add your own institution coordinates
+
+# Annotate is used in conference presentation. You may remove or add your own institution coordinates for labeling.
 
 library(gridExtra)
+
 grid.arrange(p1, p2, p3, p4, nrow = 2) # arranges clusters onto one page
 
 
 
 #### choosing optimal clusters
+
 set.seed(123) 
 # random number generator used for
 # simulating, generating random start points
 # for reproducible results
 
-# elbow method
+## elbow method
+
 fviz_nbclust(scaled, kmeans, method="wss")
 
-# average silhouette
+## average silhouette
+
 fviz_nbclust(scaled, kmeans, method="silhouette")
 
 
 #### extract cluster results
+
 print(k2)
 
 
