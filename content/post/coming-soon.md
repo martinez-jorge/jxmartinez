@@ -28,4 +28,4 @@ Here are some of the topics I hope to cover in the near future:
 * Exploring the importance of graphic design in data visualization.
 * How to use R for analysis, visualization, report writing, and more.
 
-Ultimately, I hope this site becomes a place for others to learn new skills and apply them in their own work just like I have. You do not necessarily need a Ph.D. to do quality research (although it helps)!
+Ultimately, I built this site as an online portfolio to share my work. I have encountered many helpful posts by others in the R community and I hope my content sparks ideas as others have inspired me.
