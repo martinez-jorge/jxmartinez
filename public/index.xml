@@ -5,7 +5,7 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Jorge Martinez</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jorge Martinez, 2020</copyright><lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jorge Martinez, 2020</copyright><lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Jorge Martinez</title>
@@ -55,11 +55,27 @@
     </item>
     
     <item>
+      <title>National University Rankings</title>
+      <link>/project/university-ranking/</link>
+      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>/project/university-ranking/</guid>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;Each year the U.S. News &amp;amp; World Report publish their Best College Rankings. This year the University of Houston moved up 9 spots to No. 176 of the top 389 
+&lt;a href=&#34;https://www.usnews.com/best-colleges/rankings/national-universities&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Best National Universities&lt;/a&gt; for Issue Year 2021.&lt;/p&gt;
+&lt;p&gt;In this report (link above), I discuss our National University Ranking for Issue Year 2021. I summarize our key rankings and recognitions under various categories and lists. I review changes in ranking factors, provide trends in ranking metrics, and analyze how the University of Houston performs relative to our 
+&lt;a href=&#34;https://jxmartinez.com/talk/identifying-institutional-peers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;comparable and aspirational peers&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Association of American Universities</title>
       <link>/project/association-of-american-universities/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       <guid>/project/association-of-american-universities/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;The Association of American Universities (AAU) is a collection of 65 research universities in the United States (and Canada) that &amp;ldquo;earn the majority of competitively awarded federal funding for research that improves public health, seek to address national challenges, and contribute significantly to economic strength while educating and training tomorrow&amp;rsquo;s visionary leaders and innovations&amp;rdquo; as described in their mission statement. Not every research university can join - membership is by invitation only.&lt;/p&gt;
+&lt;p&gt;In 2019, AAU admitted three new institutions to their ranks: Dartmouth College, University of California-Santa Cruz, and University of Utah. The last time the AAU invited another institution among their ranks was Boston University in 2012. What does it take to become a member of AAU? In this project, I explore phase 1 and phase 2 membership indicators, how the 2019 inductees performed along these metrics, and how the University of Houston compares. I worked collaboratively with my colleague Joseph Curtin, Associate Provost, Institutional Research and Effectiveness at the University of Houston. (See PDF at top of page)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -67,7 +83,12 @@
       <link>/project/dropped-student-survey/</link>
       <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       <guid>/project/dropped-student-survey/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;The Office of the Provost tasked Hanover Research to administer a Dropped Student Survey to assess why students chose to leave UH and to determine perceived strengths and areas for improvement. The survey was sent to 8,511 undergraduate and graduate students in the Spring of 2020. Students invited to participate were enrolled at UH during the 2017-18 or the 2018-19 academic years, had not graduated, and did not enroll during Fall 2019 and Spring 2020 semesters. Of the students invited to participate, 496 participated for a response rate of 5.8%. The survey consisted of a mix of selected response and open-ended questions.&lt;/p&gt;
+&lt;p&gt;In this project, I collected student demographic, academic, and administrative data that was sent to Hanover Research. Hanover created and administered the survey instrument. They also provided the survey analysis. I consolidated Hanover&amp;rsquo;s main findings in an internal report to the UH Provost and President.&lt;/p&gt;
+&lt;p&gt;My contributions include text analysis for open-ended survey responses. They are presented as word frequencies, direct quotes pulled to inform the frequencies, and word clouds. Open-ended questions gave more context to select questions. For example, participants were asked &amp;ldquo;Originally, what motivated you to enroll at UH?&amp;rdquo; and prompted to select among a list of reasons. The open-ended portion gave respondents a chance to give more detail.&lt;/p&gt;
+&lt;p&gt;As an internal project, I do not offer a link to this report. If you are interested in learning more about this project and my text analysis, please email me at &lt;a href=&#34;mailto:jxm@uh.edu&#34;&gt;jxm@uh.edu&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -75,7 +96,10 @@
       <link>/project/retention-analysis/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       <guid>/project/retention-analysis/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;abstract&#34;&gt;Abstract&lt;/h1&gt;
+&lt;p&gt;In Fall 2019, Provost Paula Short charged a task force with developing evidence-based recommendations for increasing undergraduate student retention and timely degree completion in support of the University of Houston’s (UH) student success goals. As members of the data subcommittee, my colleagues and I formulated a predictive model for one-year retention. What factors predict student retention and how can we identify students at greatest risk for attrition?&lt;/p&gt;
+&lt;p&gt;In this study, we compiled student demographic, admissions, financial, and academic data to predict one-year retention for three cohorts of First-Time-in-College (FTIC) students. We split our analyses into fall, spring, and full-year retention models to evaluate the best predictive value at three different time points. Finally, we calculated predictive probabilities from our models to score students for intervention. Ultimately, we can use these models to identify students in future cohorts so that our interventions maximize the probability of retention one year later.&lt;/p&gt;
+</description>
     </item>
     
     <item>
