@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.7.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jorge Martinez">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="University of Houston Tableau Users Group to support, share ideas, and learn from those who are working with Tableau on the UH campus.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/talk/uh-tableau-user-group/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-159037049-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-159037049-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu32f7f05cd0161035e4007bb3c0e240a0_12625_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu32f7f05cd0161035e4007bb3c0e240a0_12625_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/talk/uh-tableau-user-group/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@JXM85">
+  <meta property="twitter:creator" content="@JXM85">
+  
+  <meta property="og:site_name" content="Jorge Martinez">
+  <meta property="og:url" content="/talk/uh-tableau-user-group/">
+  <meta property="og:title" content="UH Tableau User Group | Jorge Martinez">
+  <meta property="og:description" content="University of Houston Tableau Users Group to support, share ideas, and learn from those who are working with Tableau on the UH campus."><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-11-13T13:46:11-06:00">
+    
+    <meta property="article:modified_time" content="2020-11-19T14:00:00-06:00">
+  
+
+  
+
+
+
+  
+    
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/talk/uh-tableau-user-group/"
+  },
+  "name": "UH Tableau User Group",
+  
+  "location": {
+    "@type": "Place",
+    "name": "University of Houston - Microsoft Teams",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "",
+      "addressLocality": "",
+      "postalCode": "",
+      "addressRegion": "",
+      "addressCountry": ""
+    }
+    
+  },
+  
+  
+  "startDate": "2020-11-19T14:00:00-06:00",
+  
+  "endDate": "2020-11-19T16:00:00-06:00",
+  
+  
+  "performer": {
+    "@type": "Person",
+    "name": "Jorge Martinez"
+  },
+  
+  "description": "University of Houston Tableau Users Group to support, share ideas, and learn from those who are working with Tableau on the UH campus."
+}
+</script>
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>UH Tableau User Group | Jorge Martinez</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Jorge Martinez</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Jorge Martinez</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>UH Tableau User Group</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+      <h3>Abstract</h3>
+      <p class="pub-abstract">We are excited to announce our UH Tableau Users Group to support, share ideas, and learn from those who are working with Tableau on the UH campus. In our first meeting, we will review current UH Tableau deployments, discuss UH branding, color palettes, and how to publish dashboards to a website.</p>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9">
+            Nov 19, 2020 2:00 PM &mdash; 4:00 PM
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            
+            UH Tableau User Group
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">University of Houston - Microsoft Teams</div>
+          
+            <div class="col-md-3"></div>
+            <div class="col-12 col-md-9"></div>
+          
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      <h1 id="tableau-at-the-university-of-houston">Tableau at the University of Houston</h1>
+<p>We first adopted Tableau as our data visualization software back in 2016. Since then, we have implemented approximately 24 dashboards to facilitate decision-making at UH. During a six month period between May and November 2020, we have amassed over 27,000 unique dashboard visits! UH is a Power House of Data.</p>
+<p><img src="/talk/uh-tableau-user-group/index_files/usage-statistics.png" alt="Usage statistics"></p>
+<h1 id="agenda">Agenda</h1>
+<p>The purpose of our UH Tableau User Group (TUG) is to support, share ideas, and learn from those working with tableau at the UH Campus. In our first meeting, we will:</p>
+<ol>
+<li>Explore current deployments of Tableau at UH</li>
+<li>Learn how to incorporate UH branding aesthetics</li>
+<li>Publish dashboards to server</li>
+<li>Display dashboards on a web page</li>
+<li>Complete an interactive activity</li>
+</ol>
+<h1 id="uh-by-the-numbers">UH By the Numbers</h1>
+<p><img src="/talk/uh-tableau-user-group/index_files/uhbtn.png" alt="UH By the Numbers"></p>
+<p>
+<a href="https://uh.edu/by-the-numbers/" target="_blank" rel="noopener">UH By the Numbers</a> features 18 dashboards restricted to faculty and staff use only. You must log in with your Cougarnet credentials to access these dashboards. These dashboards are organized into these main categories:</p>
+<ol>
+<li>
+<a href="https://uh.edu/by-the-numbers/enrollment/" target="_blank" rel="noopener">Enrollment Tracking:</a> Weekly reports on admissions and the enrollment of new and continuing students for upcoming academic terms compared to past years.</li>
+<li>
+<a href="https://uh.edu/by-the-numbers/student-data/" target="_blank" rel="noopener">Student Data:</a> Trend data on student enrollment, semester credit hours, new student profiles and financial aid.</li>
+<li>
+<a href="https://uh.edu/by-the-numbers/student-degrees/" target="_blank" rel="noopener">Student Success:</a> Student performance trend data including degrees awarded, retention and graduation rates, and semester credit hour completion.</li>
+<li>
+<a href="https://uh.edu/by-the-numbers/faculty/" target="_blank" rel="noopener">Faculty:</a> Faculty trends by rank, tenure and demographics.</li>
+<li>
+<a href="https://uh.edu/by-the-numbers/external-data/" target="_blank" rel="noopener">External Data:</a> Comparison data of the University of Houston and other Texas public institutions from The Texas Higher Education Coordinating Board’s annual Almanac.</li>
+<li>
+<a href="https://uh.edu/by-the-numbers/advancement/" target="_blank" rel="noopener">Advancement:</a> Data on UH fundraising and alumni engagement.</li>
+</ol>
+<h1 id="uh-statistical-handbook">UH Statistical Handbook</h1>
+<p><img src="/talk/uh-tableau-user-group/index_files/shb.png" alt="UH Statistical Handbook"></p>
+<p>
+<a href="https://uh.edu/ir/reports/new-statistical-handbook/" target="_blank" rel="noopener">UH Statistical Handbook</a> transforms our original handbook reporting into interactive dashboards. The Statistical Handbook differs from By the Numbers in the following ways:</p>
+<ol>
+<li>Anyone can access data in the Statistical Handbook - no log-in required.</li>
+<li>Statistical Handbook offers greater flexibility and more levels of detail. For example, you can see all racial and ethnic breakdowns that are collapsed in By the Numbers (e.g. Hawaiian/Pacific Islanders are collapsed into Asian American on BTN).</li>
+<li>Statistical Handbook includes data on minors, degree programs, and geographic data for students.</li>
+</ol>
+<h1 id="uh-branding">UH Branding</h1>
+<p><img src="/talk/uh-tableau-user-group/index_files/branding-guidelines.png" alt="University Marketing and Communication branding guidelines"></p>
+<p>It is important that all Tableau dashboards displayed on any university web page have the same look and feel as the overall UH site. Fortunately, 
+<a href="https://uh.edu/marcom/guidelines-policies/brand/" target="_blank" rel="noopener">University Marketing and Communications outlines various branding guidelines</a> to help you publish dashboards with the Cougar aesthetic.</p>
+<h2 id="color-palettes">Color Palettes</h2>
+<p><img src="/talk/uh-tableau-user-group/index_files/colors.png" alt="UH Brand Colors"></p>
+<p>Tableau desktop comes with many great color palettes to choose from. In this section, I will show you how to manipulate Tableau&rsquo;s preferences file to incorporate UH colors to your dashboards:</p>
+<ol>
+<li>Find you &ldquo;My Tableau Repository Folder.&rdquo; It is usually saved to your Documents folder on your hard drive. For example, on a Mac it is under &ldquo;Macintosh HD/Users/user_name/Documents/My Tableau Repository&rdquo; and on PC it is usually found under &ldquo;C:/Users/user_name/Documents/My Tableau Repository&rdquo;.</li>
+<li>Make a copy of the &ldquo;Preferences.tps&rdquo; and call it &ldquo;Preferences copy.tps.&rdquo; We make a copy of this file just in case anything goes wrong and we preserved the original file.</li>
+<li>Download the 
+<a href="/img/Preferences.tps">Preferences.tps file</a> we created and save it in your &ldquo;My Tableau Repository&rdquo; folder. This will contain all the branding colors for you to use on your dashboards.</li>
+<li>Close and restart Tableau Desktop. You should now see color palettes with UH branding colors!</li>
+</ol>
+<p>You may also want to use your own colors. I recommend using 
+<a href="https://colorbrewer2.org/#type=sequential&amp;scheme=BuGn&amp;n=3" target="_blank" rel="noopener">Color Brewer</a>. This website helps you pick among sequential, diverging, and qualitative colors. You can also select among colorblind safe, print friendly, and photocopy safe colors. These colors are geared towards cartography, but they are great guidelines for any color use!</p>
+<p>For more tips on using color and dashboard design, see this presentation a colleague and I gave on 
+<a href="https://jxmartinez.com/talk/visualizing-assessment-data/" target="_blank" rel="noopener">Visualizing Assessment Data in Tableau</a>.</p>
+<h2 id="info-button">Info Button</h2>
+<p>Sometimes you need to include some context to your dashboards. Enter the handy info button!</p>
+<img src='/talk/uh-tableau-user-group/index_files/info.png' width="25%"/>
+<p>The info button can be incorporated to any dashboard to give your users more detail about the data they are seeing. We use the info button above. Feel free to right click and save the image above for your dashboards.</p>
+<p>If you want to include a different info button or any other image of your choice, I recommend using an .PNG image with a transparent background. You can tell if the image has a transparent background if it has a light white and gray checkered background like the one below:</p>
+<p><img src="/talk/uh-tableau-user-group/index_files/transparent.png" alt="Transparent"></p>
+<p>Here are the steps to include an info button - or any shape - to your dashboards:</p>
+<ol>
+<li>Save you image in your My Tableau Repository &gt; Shapes folder. It can go under the main Shapes folder or create your own folder.</li>
+<li>In Tableau Desktop, create a new calculated field for the info button. Call the field &ldquo;info button&rdquo; and give it the value &ldquo;1&rdquo; (see image below).</li>
+<li>Convert &ldquo;info button&rdquo; from Measure to Dimension. Then drag the field onto Columns.</li>
+<li>Increase info button using Size on the Marks card.</li>
+<li>Remove default formatting and set sheet row divider pane borders to &ldquo;None.&rdquo;</li>
+<li>Add information to your info button using the Tooltip.</li>
+<li>Place info button worksheet onto dashboard.</li>
+</ol>
+<p><img src="/talk/uh-tableau-user-group/index_files/info-worksheet.png" alt="Info button worksheet"></p>
+<h1 id="publishing">Publishing</h1>
+<p>It is now time to publish your hard work for the world to see!</p>
+<ol>
+<li>Go to Server &gt; Publish Workbook on the menu bar. Make sure you are logged-in.</li>
+<li>Select your project folder. I recommend starting with your WIP (work-in-progress) folder before moving to your production folder.</li>
+<li>Give your workbook a name - it can be different from your workbook file name. Be careful: you could overwrite a similarly named workbook! But this is helpful if you are updating the same workbook.</li>
+<li>Add an optional description.</li>
+<li>Select the sheets/dashboards you want to display. Tip: select &ldquo;Show sheets as tabs&rdquo; to enable the tab navigation at the top of your dashboards.</li>
+<li>Publish.</li>
+</ol>
+<p><img src="/talk/uh-tableau-user-group/index_files/publish-screen.png" alt="Publish Screen"></p>
+<p>Tableau will automatically open a browser with the location of your published workbook. This is where you can find links and embed codes:</p>
+<p><strong>Links</strong> can be used to share your workbook with others who have access to your publishing folder. It leads them straight to Tableau Server. <strong>Do not use</strong> this for displaying your dashboard on a web page.</p>
+<p>The <strong>embed code</strong> is what you need for publishing to a web page. Go to Share at the top of your screen to access the embed code:</p>
+<p><img src="/talk/uh-tableau-user-group/index_files/share-screen.png" alt="Share screen"></p>
+<h2 id="placing-your-dashboard-on-a-webpage">Placing Your Dashboard on a Webpage</h2>
+<p>If you do not have access to publish web pages using UH&rsquo;s Content Management System (CMS), you will need to share your embed code with your web administrator to make your dashboard live on your website.</p>
+<p>If you have access to publish to your website, take your embed code and place it into the body of you web page. Here is an example:</p>
+<p><img src="/talk/uh-tableau-user-group/index_files/source-code.png" alt="Share screen"></p>
+<p>The embed code is shown in lines 4-10. Line 4 is a <strong>script</strong> that is pulled from Tableau Server. This script tells the web browser how to render your dashboards on the web page.</p>
+<p>The following <strong>div</strong> creates a container with set dimensions for your dashboard to display on the web page. For most users, you do not need to change any of these elements. However, if you want your dashboard to display full width, you can replace the width='1000&rsquo; with width='100%'.</p>
+<p>Tableau dashboards are by default responsive in that they adjust to the display medium (desktop computer monitor, laptop, smart phone, tablet, etc.). However, you can set the dimensions of your dashboard to be specific to devices. These settings can be found on Tableau Desktop when you create a new dashboard under dimensions.</p>
+<h1 id="activity">Activity</h1>
+<p>Explore our Tableau dashboards for yourself! We challenge you to a scavenger hunt which can be found 
+<a href="">here</a>.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=/talk/uh-tableau-user-group/&amp;text=UH%20Tableau%20User%20Group" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=/talk/uh-tableau-user-group/&amp;t=UH%20Tableau%20User%20Group" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=UH%20Tableau%20User%20Group&amp;body=/talk/uh-tableau-user-group/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=/talk/uh-tableau-user-group/&amp;title=UH%20Tableau%20User%20Group" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=UH%20Tableau%20User%20Group%20/talk/uh-tableau-user-group/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=/talk/uh-tableau-user-group/&amp;title=UH%20Tableau%20User%20Group" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hud145ec49ebe9cc1d976b73c6df7f00d3_2242219_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/">Jorge Martinez</a></h5>
+      <h6 class="card-subtitle">Senior Research Analyst</h6>
+      <p class="card-text">I&rsquo;m a Senior Research Analyst in the Office of the Provost at the University of Houston.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/JXM85" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jmartinezx/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.a8d7005002cb4a052fd6d721e83df9ba.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+  <p class="powered-by">
+    
+      <a href="/privacy/">Privacy Policy</a>
+    
+    
+       &middot; 
+      <a href="/terms/">Terms</a>
+    
+  </p>
+  
+
+  <p class="powered-by">
+    © Jorge Martinez, 2020 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -5,12 +5,119 @@
     <link>/talk/</link>
       <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jorge Martinez, 2020</copyright><lastBuildDate>Mon, 02 Mar 2020 15:30:00 -0600</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Jorge Martinez, 2020</copyright><lastBuildDate>Thu, 19 Nov 2020 14:00:00 -0600</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/talk/</link>
     </image>
+    
+    <item>
+      <title>UH Tableau User Group</title>
+      <link>/talk/uh-tableau-user-group/</link>
+      <pubDate>Thu, 19 Nov 2020 14:00:00 -0600</pubDate>
+      <guid>/talk/uh-tableau-user-group/</guid>
+      <description>&lt;h1 id=&#34;tableau-at-the-university-of-houston&#34;&gt;Tableau at the University of Houston&lt;/h1&gt;
+&lt;p&gt;We first adopted Tableau as our data visualization software back in 2016. Since then, we have implemented approximately 24 dashboards to facilitate decision-making at UH. During a six month period between May and November 2020, we have amassed over 27,000 unique dashboard visits! UH is a Power House of Data.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/usage-statistics.png&#34; alt=&#34;Usage statistics&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;agenda&#34;&gt;Agenda&lt;/h1&gt;
+&lt;p&gt;The purpose of our UH Tableau User Group (TUG) is to support, share ideas, and learn from those working with tableau at the UH Campus. In our first meeting, we will:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Explore current deployments of Tableau at UH&lt;/li&gt;
+&lt;li&gt;Learn how to incorporate UH branding aesthetics&lt;/li&gt;
+&lt;li&gt;Publish dashboards to server&lt;/li&gt;
+&lt;li&gt;Display dashboards on a web page&lt;/li&gt;
+&lt;li&gt;Complete an interactive activity&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;uh-by-the-numbers&#34;&gt;UH By the Numbers&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/uhbtn.png&#34; alt=&#34;UH By the Numbers&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://uh.edu/by-the-numbers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UH By the Numbers&lt;/a&gt; features 18 dashboards restricted to faculty and staff use only. You must log in with your Cougarnet credentials to access these dashboards. These dashboards are organized into these main categories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://uh.edu/by-the-numbers/enrollment/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Enrollment Tracking:&lt;/a&gt; Weekly reports on admissions and the enrollment of new and continuing students for upcoming academic terms compared to past years.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://uh.edu/by-the-numbers/student-data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Student Data:&lt;/a&gt; Trend data on student enrollment, semester credit hours, new student profiles and financial aid.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://uh.edu/by-the-numbers/student-degrees/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Student Success:&lt;/a&gt; Student performance trend data including degrees awarded, retention and graduation rates, and semester credit hour completion.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://uh.edu/by-the-numbers/faculty/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Faculty:&lt;/a&gt; Faculty trends by rank, tenure and demographics.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://uh.edu/by-the-numbers/external-data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;External Data:&lt;/a&gt; Comparison data of the University of Houston and other Texas public institutions from The Texas Higher Education Coordinating Board’s annual Almanac.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://uh.edu/by-the-numbers/advancement/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Advancement:&lt;/a&gt; Data on UH fundraising and alumni engagement.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;uh-statistical-handbook&#34;&gt;UH Statistical Handbook&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/shb.png&#34; alt=&#34;UH Statistical Handbook&#34;&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://uh.edu/ir/reports/new-statistical-handbook/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;UH Statistical Handbook&lt;/a&gt; transforms our original handbook reporting into interactive dashboards. The Statistical Handbook differs from By the Numbers in the following ways:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Anyone can access data in the Statistical Handbook - no log-in required.&lt;/li&gt;
+&lt;li&gt;Statistical Handbook offers greater flexibility and more levels of detail. For example, you can see all racial and ethnic breakdowns that are collapsed in By the Numbers (e.g. Hawaiian/Pacific Islanders are collapsed into Asian American on BTN).&lt;/li&gt;
+&lt;li&gt;Statistical Handbook includes data on minors, degree programs, and geographic data for students.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;uh-branding&#34;&gt;UH Branding&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/branding-guidelines.png&#34; alt=&#34;University Marketing and Communication branding guidelines&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It is important that all Tableau dashboards displayed on any university web page have the same look and feel as the overall UH site. Fortunately, 
+&lt;a href=&#34;https://uh.edu/marcom/guidelines-policies/brand/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;University Marketing and Communications outlines various branding guidelines&lt;/a&gt; to help you publish dashboards with the Cougar aesthetic.&lt;/p&gt;
+&lt;h2 id=&#34;color-palettes&#34;&gt;Color Palettes&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/colors.png&#34; alt=&#34;UH Brand Colors&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Tableau desktop comes with many great color palettes to choose from. In this section, I will show you how to manipulate Tableau&amp;rsquo;s preferences file to incorporate UH colors to your dashboards:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Find you &amp;ldquo;My Tableau Repository Folder.&amp;rdquo; It is usually saved to your Documents folder on your hard drive. For example, on a Mac it is under &amp;ldquo;Macintosh HD/Users/user_name/Documents/My Tableau Repository&amp;rdquo; and on PC it is usually found under &amp;ldquo;C:/Users/user_name/Documents/My Tableau Repository&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Make a copy of the &amp;ldquo;Preferences.tps&amp;rdquo; and call it &amp;ldquo;Preferences copy.tps.&amp;rdquo; We make a copy of this file just in case anything goes wrong and we preserved the original file.&lt;/li&gt;
+&lt;li&gt;Download the 
+&lt;a href=&#34;/img/Preferences.tps&#34;&gt;Preferences.tps file&lt;/a&gt; we created and save it in your &amp;ldquo;My Tableau Repository&amp;rdquo; folder. This will contain all the branding colors for you to use on your dashboards.&lt;/li&gt;
+&lt;li&gt;Close and restart Tableau Desktop. You should now see color palettes with UH branding colors!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;You may also want to use your own colors. I recommend using 
+&lt;a href=&#34;https://colorbrewer2.org/#type=sequential&amp;amp;scheme=BuGn&amp;amp;n=3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Color Brewer&lt;/a&gt;. This website helps you pick among sequential, diverging, and qualitative colors. You can also select among colorblind safe, print friendly, and photocopy safe colors. These colors are geared towards cartography, but they are great guidelines for any color use!&lt;/p&gt;
+&lt;p&gt;For more tips on using color and dashboard design, see this presentation a colleague and I gave on 
+&lt;a href=&#34;https://jxmartinez.com/talk/visualizing-assessment-data/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Visualizing Assessment Data in Tableau&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;info-button&#34;&gt;Info Button&lt;/h2&gt;
+&lt;p&gt;Sometimes you need to include some context to your dashboards. Enter the handy info button!&lt;/p&gt;
+&lt;img src=&#39;/talk/uh-tableau-user-group/index_files/info.png&#39; width=&#34;25%&#34;/&gt;
+&lt;p&gt;The info button can be incorporated to any dashboard to give your users more detail about the data they are seeing. We use the info button above. Feel free to right click and save the image above for your dashboards.&lt;/p&gt;
+&lt;p&gt;If you want to include a different info button or any other image of your choice, I recommend using an .PNG image with a transparent background. You can tell if the image has a transparent background if it has a light white and gray checkered background like the one below:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/transparent.png&#34; alt=&#34;Transparent&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Here are the steps to include an info button - or any shape - to your dashboards:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Save you image in your My Tableau Repository &amp;gt; Shapes folder. It can go under the main Shapes folder or create your own folder.&lt;/li&gt;
+&lt;li&gt;In Tableau Desktop, create a new calculated field for the info button. Call the field &amp;ldquo;info button&amp;rdquo; and give it the value &amp;ldquo;1&amp;rdquo; (see image below).&lt;/li&gt;
+&lt;li&gt;Convert &amp;ldquo;info button&amp;rdquo; from Measure to Dimension. Then drag the field onto Columns.&lt;/li&gt;
+&lt;li&gt;Increase info button using Size on the Marks card.&lt;/li&gt;
+&lt;li&gt;Remove default formatting and set sheet row divider pane borders to &amp;ldquo;None.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Add information to your info button using the Tooltip.&lt;/li&gt;
+&lt;li&gt;Place info button worksheet onto dashboard.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/info-worksheet.png&#34; alt=&#34;Info button worksheet&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;publishing&#34;&gt;Publishing&lt;/h1&gt;
+&lt;p&gt;It is now time to publish your hard work for the world to see!&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Go to Server &amp;gt; Publish Workbook on the menu bar. Make sure you are logged-in.&lt;/li&gt;
+&lt;li&gt;Select your project folder. I recommend starting with your WIP (work-in-progress) folder before moving to your production folder.&lt;/li&gt;
+&lt;li&gt;Give your workbook a name - it can be different from your workbook file name. Be careful: you could overwrite a similarly named workbook! But this is helpful if you are updating the same workbook.&lt;/li&gt;
+&lt;li&gt;Add an optional description.&lt;/li&gt;
+&lt;li&gt;Select the sheets/dashboards you want to display. Tip: select &amp;ldquo;Show sheets as tabs&amp;rdquo; to enable the tab navigation at the top of your dashboards.&lt;/li&gt;
+&lt;li&gt;Publish.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/publish-screen.png&#34; alt=&#34;Publish Screen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Tableau will automatically open a browser with the location of your published workbook. This is where you can find links and embed codes:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Links&lt;/strong&gt; can be used to share your workbook with others who have access to your publishing folder. It leads them straight to Tableau Server. &lt;strong&gt;Do not use&lt;/strong&gt; this for displaying your dashboard on a web page.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;embed code&lt;/strong&gt; is what you need for publishing to a web page. Go to Share at the top of your screen to access the embed code:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/share-screen.png&#34; alt=&#34;Share screen&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;placing-your-dashboard-on-a-webpage&#34;&gt;Placing Your Dashboard on a Webpage&lt;/h2&gt;
+&lt;p&gt;If you do not have access to publish web pages using UH&amp;rsquo;s Content Management System (CMS), you will need to share your embed code with your web administrator to make your dashboard live on your website.&lt;/p&gt;
+&lt;p&gt;If you have access to publish to your website, take your embed code and place it into the body of you web page. Here is an example:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/talk/uh-tableau-user-group/index_files/source-code.png&#34; alt=&#34;Share screen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The embed code is shown in lines 4-10. Line 4 is a &lt;strong&gt;script&lt;/strong&gt; that is pulled from Tableau Server. This script tells the web browser how to render your dashboards on the web page.&lt;/p&gt;
+&lt;p&gt;The following &lt;strong&gt;div&lt;/strong&gt; creates a container with set dimensions for your dashboard to display on the web page. For most users, you do not need to change any of these elements. However, if you want your dashboard to display full width, you can replace the width=&#39;1000&amp;rsquo; with width=&#39;100%&#39;.&lt;/p&gt;
+&lt;p&gt;Tableau dashboards are by default responsive in that they adjust to the display medium (desktop computer monitor, laptop, smart phone, tablet, etc.). However, you can set the dimensions of your dashboard to be specific to devices. These settings can be found on Tableau Desktop when you create a new dashboard under dimensions.&lt;/p&gt;
+&lt;h1 id=&#34;activity&#34;&gt;Activity&lt;/h1&gt;
+&lt;p&gt;Explore our Tableau dashboards for yourself! We challenge you to a scavenger hunt which can be found 
+&lt;a href=&#34;&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Identifying Institutional Peers Through Cluster Analysis</title>
