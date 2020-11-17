@@ -33,21 +33,22 @@ slides: ''
 projects: []
 ---
 
+# Agenda
+
+The purpose of the UH Tableau User Group (TUG) is to support, share ideas, and learn from those working with tableau at the UH Campus. In our first meeting, we will cover:
+
+1. Welcome from the Director of Institutional Research at UH
+2. Explore current deployments of Tableau at UH
+3. Learn how to incorporate UH branding aesthetics
+4. Publish dashboards to server
+5. Display dashboards on a web page
+6. Complete an interactive activity
+
 # Tableau at the University of Houston
 
 We first adopted Tableau as our data visualization software back in 2016. Since then, we have implemented approximately 24 dashboards to facilitate decision-making at UH. During a six month period between May and November 2020, we have amassed over 27,000 unique dashboard visits! UH is a Power House of Data.
 
 ![Usage statistics](/talk/uh-tableau-user-group/index_files/usage-statistics.png)
-
-# Agenda
-
-The purpose of our UH Tableau User Group (TUG) is to support, share ideas, and learn from those working with tableau at the UH Campus. In our first meeting, we will:
-
-1. Explore current deployments of Tableau at UH
-2. Learn how to incorporate UH branding aesthetics
-3. Publish dashboards to server
-4. Display dashboards on a web page
-5. Complete an interactive activity
 
 # UH By the Numbers
 
@@ -69,8 +70,8 @@ The purpose of our UH Tableau User Group (TUG) is to support, share ideas, and l
 [UH Statistical Handbook](https://uh.edu/ir/reports/new-statistical-handbook/) transforms our original handbook reporting into interactive dashboards. The Statistical Handbook differs from By the Numbers in the following ways:
 
 1. Anyone can access data in the Statistical Handbook - no log-in required.
-2. Statistical Handbook offers greater flexibility and more levels of detail. For example, you can see all racial and ethnic breakdowns that are collapsed in By the Numbers (e.g. Hawaiian/Pacific Islanders are collapsed into Asian American on BTN).
-3. Statistical Handbook includes data on minors, degree programs, and geographic data for students.
+2. Statistical Handbook offers more flexibility and more levels of detail. For example, you can see all racial and ethnic breakdowns that are collapsed in By the Numbers (e.g. Hawaiian/Pacific Islanders are collapsed into Asian American on BTN).
+3. Statistical Handbook provides more information than UH By the Numbers including data on minors, degree programs, and geographic data for students.
 
 # UH Branding
 
