@@ -153,7 +153,7 @@ Tableau dashboards are by default responsive in that they adjust to the display 
 
 # Activity
 
-Explore our Tableau dashboards for yourself! We challenge you to a scavenger hunt which can be found [here](/talk/uh-tableau-user-group/index_files/scavenger-hunt.pdf).
+Explore our Tableau dashboards for yourself! We challenge you to a scavenger hunt which can be found [here](/talk/uh-tableau-user-group/index_files/scavenger-hunt.pdf). Click [here](/talk/uh-tableau-user-group/index_files/scavenger-hunt-solutions.pdf) for the solutions.
 
 
 
