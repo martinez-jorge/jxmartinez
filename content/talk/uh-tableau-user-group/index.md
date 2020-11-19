@@ -35,8 +35,6 @@ projects: []
 
 # Agenda
 
-The purpose of the UH Tableau User Group (TUG) is to support, share ideas, and learn from those working with tableau at the UH Campus. In our first meeting, we will cover:
-
 1. Welcome from the Director of Institutional Research at UH
 2. Explore current deployments of Tableau at UH
 3. Learn how to incorporate UH branding aesthetics
@@ -46,7 +44,7 @@ The purpose of the UH Tableau User Group (TUG) is to support, share ideas, and l
 
 # Tableau at the University of Houston
 
-We first adopted Tableau as our data visualization software back in 2016. Since then, we have implemented approximately 24 dashboards to facilitate decision-making at UH. During a six month period between May and November 2020, we have amassed over 27,000 unique dashboard visits! UH is a Power House of Data.
+We first adopted Tableau as our data visualization software back in 2016. Since then, we have implemented approximately 24 dashboards to facilitate decision-making at UH. During a six month period between May and November 2020, we have amassed over 27,000 unique dashboard visits!
 
 ![Usage statistics](/talk/uh-tableau-user-group/index_files/usage-statistics.png)
 
@@ -54,7 +52,7 @@ We first adopted Tableau as our data visualization software back in 2016. Since 
 
 ![UH By the Numbers](/talk/uh-tableau-user-group/index_files/uhbtn.png)
 
-[UH By the Numbers](https://uh.edu/by-the-numbers/) features 18 dashboards restricted to faculty and staff use only. You must log in with your Cougarnet credentials to access these dashboards. These dashboards are organized into these main categories:
+[UH By the Numbers](https://uh.edu/by-the-numbers/) features 18 dashboards restricted to faculty and staff use only. You must log in with your Cougarnet credentials to access these dashboards. They are organized into these categories:
 
 1. [Enrollment Tracking:](https://uh.edu/by-the-numbers/enrollment/) Weekly reports on admissions and the enrollment of new and continuing students for upcoming academic terms compared to past years.
 2. [Student Data:](https://uh.edu/by-the-numbers/student-data/) Trend data on student enrollment, semester credit hours, new student profiles and financial aid. 
@@ -85,10 +83,10 @@ It is important that all Tableau dashboards displayed on any university web page
 
 Tableau desktop comes with many great color palettes to choose from. In this section, I will show you how to manipulate Tableau's preferences file to incorporate UH colors to your dashboards:
 
-1. Find you "My Tableau Repository Folder." It is usually saved to your Documents folder on your hard drive. For example, on a Mac it is under "Macintosh HD/Users/user_name/Documents/My Tableau Repository" and on PC it is usually found under "C:/Users/user_name/Documents/My Tableau Repository".
-2. Make a copy of the "Preferences.tps" and call it "Preferences copy.tps." We make a copy of this file just in case anything goes wrong and we preserved the original file.
+1. Find your "My Tableau Repository Folder." At installation, Tableau usually saves this under your Documents folder on your hard drive. For example, on a Mac it is under "Macintosh HD/Users/user_name/Documents/My Tableau Repository" and on PC it is usually found under "C:/Users/user_name/Documents/My Tableau Repository".
+2. Make a copy of the "Preferences.tps" and call it "Preferences copy.tps." We make a copy of this file just in case anything goes wrong.
 3. Download the [Preferences.tps file](/img/Preferences.tps) we created and save it in your "My Tableau Repository" folder. This will contain all the branding colors for you to use on your dashboards.
-4. Close and restart Tableau Desktop. You should now see color palettes with UH branding colors!
+4. Close and restart Tableau Desktop. You should now see UH color palettes!
 
 You may also want to use your own colors. I recommend using [Color Brewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3). This website helps you pick among sequential, diverging, and qualitative colors. You can also select among colorblind safe, print friendly, and photocopy safe colors. These colors are geared towards cartography, but they are great guidelines for any color use!
 
@@ -102,7 +100,7 @@ Sometimes you need to include some context to your dashboards. Enter the handy i
 
 The info button can be incorporated to any dashboard to give your users more detail about the data they are seeing. We use the info button above. Feel free to right click and save the image above for your dashboards.
 
-If you want to include a different info button or any other image of your choice, I recommend using an .PNG image with a transparent background. You can tell if the image has a transparent background if it has a light white and gray checkered background like the one below:
+If you want to include a different info button or any other image of your choice, I recommend using an .PNG image with a transparent background. You can tell if the image has a transparent background if it has a light checkered background like the one below:
 
 ![Transparent](/talk/uh-tableau-user-group/index_files/transparent.png)
 
