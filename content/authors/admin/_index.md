@@ -40,4 +40,4 @@ user_groups:
 - Visitors
 ---
 
-I am a Senior Research Analyst in the Office of the Provost at the University of Houston. I analyze and report on institutional data for the UH Provost and President/Chancellor. Although I am trained as a sociologist with a focus in deviance and social control, I leverage my skills in research design, statistics, and data visualization to tackle questions in higher education as a means towards university advancement. When I am not playing with data or learning a new R package, you can find me cycling around Houston, visiting museums, or spending time with my pugs.
+I am a Senior Research Analyst in the Office of the Provost at the University of Houston. I analyze and report on institutional data for the UH Provost and President/Chancellor. Although I am trained as a sociologist with a focus in deviance and social control, I leverage my skills in research design, statistics, and data visualization to tackle questions in higher education as a means towards university advancement. When I am not playing with data or learning a new R package, you can find me cycling around Houston, visiting museums, or spending time with my pug.
