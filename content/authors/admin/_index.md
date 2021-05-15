@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I'm a Senior Research Analyst in the Office of the Provost at the University of Houston.
+bio: I'm an Institutional Research Analyst at Rice University.
 education:
   courses:
   # - course: PhD in Artificial Intelligence
@@ -13,7 +13,7 @@ education:
   - course: BA in Sociology
     institution: Texas A&M University - College Station
     year: 2007
-email: "jxm@uh.edu"
+email: "jxm@rice.edu"
 interests:
 - Higher Education
 - Data Visualization
@@ -21,9 +21,9 @@ interests:
 - Criminology
 name: Jorge Martinez
 organizations:
-- name: University of Houston
-  url: "https://uh.edu/ir/"
-role: Senior Research Analyst
+- name: Rice University
+  url: "https://www.rice.edu"
+role: Institutional Research Analyst II
 social:
 - icon: envelope
   icon_pack: fas
@@ -40,4 +40,4 @@ user_groups:
 - Visitors
 ---
 
-I am a Senior Research Analyst in the Office of the Provost at the University of Houston. I analyze and report on institutional data for the UH Provost and President/Chancellor. Although I am trained as a sociologist with a focus in deviance and social control, I leverage my skills in research design, statistics, and data visualization to tackle questions in higher education as a means towards university advancement. When I am not playing with data or learning a new R package, you can find me cycling around Houston, visiting museums, or spending time with my pug.
+I am an Institutional Research Analyst at Rice University. I analyze and report on institutional data to support decision-making at Rice. Although I am trained as a sociologist with a focus in deviance and social control, I leverage my skills in research design, statistics, and data visualization to tackle questions in higher education. When I am not playing with data or learning a new R package, you can find me cycling around Houston, visiting museums, or spending time with my pug.

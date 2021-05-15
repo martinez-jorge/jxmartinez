@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Rice"
+
+# Is theme light or dark?
+light = false
+
+# Primary
+primary = "#c04829"
+
+# Menu
+menu_primary = "#fff"
+menu_text = "#34495e"
+menu_text_active = "#2962ff"
+menu_title = "#2b2b2b"
+
+# Home sections
+home_section_odd = "#00205B"
+home_section_even = "#44474f"

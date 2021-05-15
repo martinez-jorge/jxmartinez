@@ -9,7 +9,7 @@ title = "Experience"
 subtitle = ""
 
 [design.background]
-  image = "headers/mobius.jpg"  # Name of image in `static/img/`.
+  image = "headers/owls.jpg"  # Name of image in `static/img/`.
   image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
@@ -28,13 +28,23 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Institutional Research Analyst II"
+  company = "Rice University"
+  company_url = "https://oir.rice.edu"
+  location = "Houston, TX"
+  date_start = "2021-05-10"
+  date_end = ""
+  description = "Institutional data analysis & reporting"
+  
 [[experience]]
   title = "Senior Research Analyst"
   company = "University of Houston"
   company_url = "https://uh.edu/ir/"
   location = "Houston, TX"
   date_start = "2015-09-28"
-  date_end = ""
+  date_end = "2021-04-30"
   description = "Institutional data analysis & reporting"
   # Responsibilities include:
   
