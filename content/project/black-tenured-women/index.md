@@ -12,7 +12,7 @@ lastmod: '2021-06-08T08:44:38-05:00'
 links:
   - icon_pack: fab
     name: Report
-    url: 'project/black-tenured-women/black-fem-tenured.html'
+    url: 'project/black-tenured-women_files/black-fem-tenured.html'
 image:
   caption: ''
   focal_point: ''
