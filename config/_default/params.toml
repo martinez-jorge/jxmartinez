@@ -83,19 +83,19 @@ edit_page = {repo_url = "https://github.com/gcushen/hugo-academic", content_dir 
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "jxm@rice.edu"
-phone = "(713) 348-7549"
+email = "jxm@uh.edu"
+phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "6100 Main Street", city = "Houston", region = "TX", postcode = "77005", country = "United States", country_code = "US"}
+address = {street = "4400 University Drive", city = "Houston", region = "TX", postcode = "77005", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "29.71786688552896", longitude = "-95.39790089156061"}
+coordinates = {latitude = "29.718780946228193", longitude = "-95.33985811037431"}
 
 # Directions for visitors to locate you.
-directions = "Allen Center Room 215E"
+directions = "Welcome Center Room 130"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.

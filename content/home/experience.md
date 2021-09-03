@@ -9,8 +9,8 @@ title = "Experience"
 subtitle = ""
 
 [design.background]
-  image = "headers/owls.jpg"  # Name of image in `static/img/`.
-  image_darken = 0.5  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "headers/cougar.JPG"  # Name of image in `static/img/`.
+  image_darken = 0.2  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
   image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
@@ -30,12 +30,21 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Director of Research & Reporting"
+  company = "University of Houston"
+  company_url = "https://uh.edu/about/offices/enrollment-services/research-and-reporting/"
+  location = "Houston, TX"
+  date_start = "2021-09-01"
+  date_end = ""
+  description = "Provide leadership, direction, and expertise in the analysis and reporting of Enrollment Services data to inform University policy and functions"
+
+[[experience]]
   title = "Institutional Research Analyst II"
   company = "Rice University"
   company_url = "https://oir.rice.edu"
   location = "Houston, TX"
   date_start = "2021-05-10"
-  date_end = ""
+  date_end = "2021-08-31"
   description = "Institutional data analysis & reporting"
   
 [[experience]]
@@ -45,7 +54,7 @@ date_format = "Jan 2006"
   location = "Houston, TX"
   date_start = "2015-09-28"
   date_end = "2021-04-30"
-  description = "Institutional data analysis & reporting"
+  description = "Institutional data analysis & reporting; longitudinal ranking analysis; university strategic planning; predictive analytics to support student retention and graduation"
   # Responsibilities include:
   
   # * Analysing
