@@ -23,7 +23,7 @@ name: Jorge Martinez
 organizations:
 - name: University of Houston
   url: "https://uh.edu"
-role: Director, Enrollment Services Research & Reporting
+role: Director, Research & Reporting Enrollment Services
 social:
 - icon: envelope
   icon_pack: fas
