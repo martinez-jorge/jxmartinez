@@ -16,9 +16,9 @@ address:
   country: ~
 summary: Modeling time-to-graduation using survival analysis.
 abstract: Six-year graduation rates are a critical benchmark for student success and an important metric for university administrators. Conducted at a large, public, 4-year university with a current six-year graduation rate of 62%, this study generated a predictive model that identified ten statistically significant predictors for six-year graduation. These predictors were conceptualized into four actionable takeaways to improve six-year graduation rates. Researchers also used the collected data to complete a survival analysis modeling time-to-graduation. This term-to-term analysis provides meaningful information for understanding variables like major changes and credit hour progression.
-date_end: '2022-03-01T16:00:00-06:00'
+date_end: '2023-02-27T16:00:00-06:00'
 all_day: no
-publishDate: '2022-03-01T16:00:00-06:00'
+publishDate: '2023-03-01T16:00:00-06:00'
 authors: []
 featured: no
 image:
