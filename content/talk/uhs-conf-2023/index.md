@@ -25,10 +25,10 @@ image:
   caption: ''
   focal_point: ''
   preview_only: no
-url_slides: https://martinez-jorge.quarto.pub/above-all-else-show-the-data/
+url_slides: 'https://martinez-jorge.quarto.pub/above-all-else-show-the-data/'
 url_code: ~
 url_pdf: ~
 url_video: ~
-slides: 'https://martinez-jorge.quarto.pub/above-all-else-show-the-data/'
+slides: 
 projects: []
 ---
