@@ -30,6 +30,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Director of Data Science"
+  company = "University of Houston"
+  company_url = "https://uh.edu/about/offices/enrollment-services/research-and-reporting/"
+  location = "Houston, TX"
+  date_start = "2021-09-01"
+  date_end = ""
+  description = "Responsible for implementing best practices for educational data management across multiple domains and sets the district-wide standard for the communication of complex data through visualization. I Lead a team of 7 data scientists to support district-wide strategic initiatives through data analysis, modeling, and visualization."
+
+[[experience]]
   title = "Director of Research & Reporting"
   company = "University of Houston"
   company_url = "https://uh.edu/about/offices/enrollment-services/research-and-reporting/"
