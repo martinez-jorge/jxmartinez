@@ -1,7 +1,7 @@
 ---
 authors:
 - admin
-bio: I'm Director of Research & Reporting for Enrollment Services at University of Houston.
+bio: Director of Data Science at Houston Independent School District.
 education:
   courses:
   # - course: PhD in Artificial Intelligence
@@ -40,4 +40,4 @@ user_groups:
 - Visitors
 ---
 
-I am the Director of Research & Reporting for Enrollment Services at the University of Houston. I analyze admissions, financial aid, and enrollment data to support decision-making at UH. Although I am trained as a sociologist with a focus in deviance and social control, I leverage my skills in research design, statistics, and data visualization to tackle questions in higher education. When I am not playing with data or learning a new R package, you can find me cycling around Houston, visiting museums, or spending time with my pug.
+I am the Director of Data Science at the Houston Independent School District. I lead a team of data scientists in the Division of Assessment, Accountability, and Compliance. We provide data analyses to support the District's strategic goals in service of the children of the City of Houston. Although I am trained as a sociologist with a focus in deviance and social control, I leverage my skills in research design, statistics, and data visualization to tackle questions in education. When I am not playing with data or learning a new R package, you can find me cycling around Houston, visiting museums, or spending time with my pug.
