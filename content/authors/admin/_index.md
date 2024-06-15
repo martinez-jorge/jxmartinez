@@ -21,9 +21,9 @@ interests:
 - Criminology
 name: Jorge Martinez
 organizations:
-- name: University of Houston
-  url: "https://uh.edu"
-role: Director, Research & Reporting Enrollment Services
+- name: Houston ISD
+  url: "https://houstonisd.org"
+role: Director, Data Science
 social:
 - icon: envelope
   icon_pack: fas
