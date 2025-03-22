@@ -9,12 +9,12 @@ title = "Contact"
 subtitle = ""
 
 [design.background]
-  image = "https://bakerripley.org/app/uploads/2023/09/Central-Heart-scaled.jpeg"  # Name of image in `static/img/`.
+  image = "headers/central-heart.jpeg"  # Name of image in `static/img/`.
   image_darken = 0.3  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
   image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
-  photocredit="University of Houston"
+  photocredit="BakerRipley"
   
   # Text color (true=light or false=dark).
   text_color_light = true

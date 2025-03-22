@@ -92,7 +92,7 @@ address = {street = "4450 Harrisburg Blvd.", city = "Houston", region = "TX", po
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "29.74438876850616", longitude = "-95.33028391393897"}
+coordinates = {latitude = "29.743288567415288", longitude = "-95.33043804599629"}
 
 # Directions for visitors to locate you.
 directions = ""
