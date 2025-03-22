@@ -30,6 +30,15 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
+  title = "Director of Data Strategy"
+  company = "BakerRipley"
+  company_url = "https://bakerripley.org"
+  location = "Houston, TX"
+  date_start = "2025-02-01"
+  date_end = ""
+  description = "Lead the Data Strategy Team by integrating research, evaluation, and reporting into a comprehensive data management plan to support business decisions and operations. Responsible for setting shared metrics through the Theory of Change, designing the agency's digital transformation, and steering data governance."
+
+[[experience]]
   title = "Director of Data Science"
   company = "Houston Independent School District"
   company_url = "https://uh.edu/about/offices/enrollment-services/research-and-reporting/"
