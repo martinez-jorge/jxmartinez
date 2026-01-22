@@ -44,7 +44,7 @@ date_format = "Jan 2006"
   company_url = "https://uh.edu/about/offices/enrollment-services/research-and-reporting/"
   location = "Houston, TX"
   date_start = "2024-04-01"
-  date_end = ""
+  date_end = "2024-12-01"
   description = "Responsible for implementing best practices for educational data management across multiple domains and sets the district-wide standard for the communication of complex data through visualization. I Lead a team of 7 data scientists to support district-wide strategic initiatives through data analysis, modeling, and visualization."
 
 [[experience]]
@@ -53,7 +53,7 @@ date_format = "Jan 2006"
   company_url = "https://uh.edu/about/offices/enrollment-services/research-and-reporting/"
   location = "Houston, TX"
   date_start = "2021-09-01"
-  date_end = ""
+  date_end = "2024-04-01"
   description = "Provide leadership, direction, and expertise in the analysis and reporting of Enrollment Services data to inform University policy and functions"
 
 [[experience]]
