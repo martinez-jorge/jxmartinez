@@ -38,9 +38,9 @@ subtitle = ""
   # description = "10%"
 
 [[feature]]
-  icon = "table"
-  icon_pack = "fas"
-  name = "SAS"
+  icon = "github"
+  icon_pack = "fab"
+  name = "Git"
 
 [[feature]]
   icon = "database"

@@ -34,6 +34,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/jmartinezx/
+- icon: github
+  icon_pack: fab
+  link: https://github.com/martinez-jorge
 superuser: true
 user_groups:
 - Researchers
